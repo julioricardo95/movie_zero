@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title=titulo
+        meta(name="description" content=descripcion)
+        meta(name="keywords", content="estrenos,pelicula,peliculas,repelis,cine,gnula,allpeliculas,peliculas,HD,SD,4K,online,estreno,subtitulada,español,latino,castellano,dvd-r,alta calidad,completa" + keywords)
+
+        include head
+            
+    body
+        
+        include header_pelicula
+
+        div.pelicula_flex
+            div.pelicula_1
+                img.pelicula_img(src=imagen, alt=titulo)
+
+            div.pelicula_12
+                h2=titulo
+                p=descripcion
+
+            div.pelicula_2
+                include tab
+
+            include pelicula/pelicula_footer

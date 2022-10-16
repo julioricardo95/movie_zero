@@ -1,0 +1,53 @@
+@import "_variables";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+	font-family:$font-family-1;
+	box-sizing: border-box; 
+	background: $color-1;
+}
+
+.header_nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,0.2);
+	width: 100%;
+	height: 80px;
+}
+.header_svg{
+	margin: 10px 0 0 0;
+	width: 2.25rem;
+	color: white;
+}
+.header_pelicula{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: $color-2;
+}
+.header_pelicula:hover{
+	transition: 1.75s;
+	background:$color-2;
+	backdrop-filter: blur(20px);
+	
+}
+.header_pelicula_a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 42px;
+	color: white;
+	border-radius: 25px;
+	padding: 10px;
+	
+}
+.header_p{
+	margin: 0 0 0 15px;
+	font-size: clamp(1rem,2.5vw,4rem);
+}

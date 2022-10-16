@@ -1,0 +1,14 @@
+@import "_variables";
+
+.images{
+	margin: 0px 0px 10px 0px;
+}
+.carusel_img{
+	margin-top: 10px; 
+	width: 100%;
+	border-radius: 15px 2px 15px 2px ;
+	box-shadow: $box-shadow-1;  
+}
+.glide__slide:hover{
+    scale: 1.3;
+}

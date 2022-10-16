@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Fontdiner Swanky", cursive;
+  box-sizing: border-box;
+  background: #03334a; }
+
+.header_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 80px; }
+
+.header_svg {
+  margin: 10px 0 0 0;
+  width: 2.25rem;
+  color: white; }
+
+.header_pelicula {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #046592; }
+
+.header_pelicula:hover {
+  transition: 1.75s;
+  background: #046592;
+  backdrop-filter: blur(20px); }
+
+.header_pelicula_a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  color: white;
+  border-radius: 25px;
+  padding: 10px; }
+
+.header_p {
+  margin: 0 0 0 15px;
+  font-size: clamp(1rem, 2.5vw, 4rem); }
+
+.grid_contenido {
+  text-align: center; }
+
+.contenido {
+  display: inline-block;
+  width: 210px;
+  margin: 5px;
+  border-radius: 4px 15px 4px 15px;
+  box-shadow: 0px 0px 15px 4px #046592; }
+
+.contenido_a, .contenido_img {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contenido_img {
+  width: 100%;
+  border-radius: 4px 15px 4px 15px; }
+
+@media (max-width: 880px) {
+  .contenido {
+    margin: 10px 10px; } }
+
+@media (max-width: 500px) {
+  .contenido {
+    width: 150px; } }
+
+/* Style the tab buttons */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%; }
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777; }
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  text-align: center; }
+
+.contenido_tab {
+  width: 820px; }
+
+.tabs_center {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.frame_center, .tabs_descargas {
+  width: 820px;
+  height: 450px; }
+
+.tabs_descargas {
+  padding: 2rem; }
+
+.tabs_li {
+  display: inline-block; }
+
+.tabs_a {
+  font-size: 4rem;
+  margin: 1rem;
+  color: white; }
+
+.tabs_a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.2); }
+
+@media (max-width: 700px) {
+  .contenido_tab {
+    width: 520px;
+    padding: 10px; }
+  .frame_center, .tabs_descargas {
+    width: 520px;
+    height: 280px; }
+  .tabs_descargas {
+    padding: 1rem 1rem 2rem 1rem; }
+  .tabs_a {
+    font-size: 2.25rem;
+    margin: .5;
+    color: white; }
+  .tabs_a:hover {
+    color: steelblue; } }
+
+@media (max-width: 420px) {
+  .contenido_tab {
+    width: 360px;
+    padding: 10px; }
+  .frame_center, .tabs_descargas {
+    width: 360px;
+    height: 180px; }
+  .tabs_descargas {
+    padding: 1rem 1rem 2rem 1rem; }
+  .tabs_a {
+    font-size: 2.25rem;
+    margin: .5;
+    color: white; }
+  .tabs_a:hover {
+    color: steelblue; } }
+
+/* Style each tab content individually */
+#London {
+  background-color: red; }
+
+#Paris {
+  background-color: green; }
+
+#Tokyo {
+  background-color: blue; }
+
+#Oslo {
+  background-color: orange; }
+
+#mexico {
+  background-color: black; }
+
+.pelicula_flex {
+  max-width: 820px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.pelicula_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.pelicula_img {
+  max-width: 100%; }
+
+.pelicula_12 {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  padding: 1rem;
+  align-self: center;
+  margin: 0px 0px 10px;
+  border-radius: 10px 0 10px 0; }
+
+.pelicula_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+h2, p {
+  color: white; }
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px; }
+
+p {
+  font-size: 20px;
+  font-family: "Metal Mania", cursive; }
+
+@media (max-width: 700px) {
+  .pelicula_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; } }
+
+.images {
+  margin: 0px 0px 10px 0px; }
+
+.carusel_img {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 15px 2px 15px 2px;
+  box-shadow: 0px 0px 10px 4px #046592; }
+
+.glide__slide:hover {
+  scale: 1.3; }

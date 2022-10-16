@@ -1,0 +1,36 @@
+@import "_variables";
+
+
+.grid_contenido{
+    text-align: center;
+}
+.contenido{
+	display: inline-block;
+	width: 210px;
+	margin: 5px;
+	border-radius: 4px 15px 4px 15px ;
+	box-shadow: $box-shadow-2;
+	
+}.contenido_a,.contenido_img{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+ }
+
+.contenido_img{  
+    width: 100%;
+    border-radius: 4px 15px 4px 15px;
+    
+}
+@media (max-width: 880px) {
+	.contenido{
+		margin: 10px 10px ;
+	}
+	
+}
+@media (max-width: 500px) {
+	.contenido{
+		width: 150px;
+	}
+	
+}

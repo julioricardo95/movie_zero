@@ -1,0 +1,110 @@
+
+/* Style the tab buttons */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  text-align: center;
+}
+
+.contenido_tab{
+  width: 820px;
+}
+
+.tabs_center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.frame_center,.tabs_descargas{
+  width: 820px;
+  height: 450px;
+}
+.tabs_descargas{
+  padding: 2rem;
+}
+
+.tabs_li{
+  display: inline-block;
+}
+.tabs_a{
+  font-size: 4rem;
+  margin: 1rem;
+  color:white;
+}
+.tabs_a:hover{
+  color:rgba(255,255,255, 0.5);
+  transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+  .contenido_tab{
+  width: 520px;
+  padding: 10px
+  }
+  .frame_center,.tabs_descargas{
+  width: 520px;
+  height: 280px;
+  }
+  .tabs_descargas{
+  padding: 1rem 1rem 2rem 1rem ;
+  }
+  .tabs_a{
+  font-size: 2.25rem;
+  margin:.5;
+  color:white;
+  }
+  .tabs_a:hover{
+    color:steelblue;
+  }
+
+
+}
+@media (max-width: 420px) {
+  .contenido_tab{
+  width: 360px;
+  padding: 10px
+  }
+  .frame_center,.tabs_descargas{
+  width: 360px;
+  height: 180px;
+  }
+  .tabs_descargas{
+  padding: 1rem 1rem 2rem 1rem ;
+  }
+  .tabs_a{
+  font-size: 2.25rem;
+  margin:.5;
+  color:white;
+  }
+  .tabs_a:hover{
+    color:steelblue;
+  }
+
+
+}
+/* Style each tab content individually */
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+#mexico {background-color:black;}

@@ -1,0 +1,63 @@
+.contenido_tab
+    #London.tabcontent
+        .tabs_center
+            iframe.frame_center(src=video1, frameborder='0')
+    #Paris.tabcontent
+        .tabs_center
+            iframe.frame_center(src=video2, frameborder='0')
+    #Tokyo.tabcontent
+        .tabs_center
+            iframe.frame_center(src=video3, frameborder='0')
+    #Oslo.tabcontent
+        .tabs_center
+            iframe.frame_center(src=video4, frameborder='0')
+    #mexico.tabcontent
+        .tabs_center
+            ul.tabs_descargas
+                li.tabs_li
+                    a.tabs_a(href=archivo1, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo2, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo3, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo4, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo5, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo6, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo7, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo8, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo9, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo10, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo11, target="_blank")
+                        i.fas.fa-download
+                li.tabs_li
+                    a.tabs_a(href=archivo12, target="_blank")
+                        i.fas.fa-download
+    button#defaultOpen.tablink(onclick="openCity('London', this, 'red')")
+        i.fas.fa-play-circle
+    button.tablink(onclick="openCity('Paris', this, 'green')")
+        i.fas.fa-play-circle
+    button.tablink(onclick="openCity('Tokyo', this, 'blue')")
+        i.fas.fa-play-circle
+    button.tablink(onclick="openCity('Oslo', this, 'orange')")
+        i.fas.fa-play-circle
+    button.tablink(onclick="openCity('mexico', this, 'black')")
+        i.fas.fa-download
+script(src='../js/tabs.js')

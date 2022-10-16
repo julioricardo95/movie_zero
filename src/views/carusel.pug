@@ -1,0 +1,17 @@
+.images.glide
+  .glide__track(data-glide-el='track')
+    ul.glide__slides
+     
+      -for(var i = 0 ; i < datos.length ; ++i){
+        
+          a(href="/pelicula/"+datos[i].titulo)
+            li.glide__slide
+              img.carusel_img(src=datos[i].imagen, alt=datos[i].titulo,loading="lazy")
+      -};
+      
+  .glide__arrows(data-glide-el='controls')
+    botton.glide__arrow.glide__arrow--left(data-glide-dir='<')
+      i.fas.fa-arrow-left
+    botton.glide__arrow.glide__arrow--right(data-glide-dir='>')
+      i.fas.fa-arrow-right
+script(src='js/carusel.js')
