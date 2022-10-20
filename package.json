@@ -1,7 +1,7 @@
 {
-  "name": "pirata",
+  "name": "movie_zero",
   "version": "1.0.0",
-  "description": "video",
+  "description": "app para peliculas o miltifuncional",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
